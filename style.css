@@ -1,0 +1,67 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(109, 101, 102);
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.top >h1{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 101, 102);
+
+    /* border: 1px solid white; */
+    border-radius: 40%;
+    /* border-left: 100px; */
+    /* border-right: 100px; */
+    padding-right: 80px;
+    padding-left:80px;
+}
+.imagesection{
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 100px;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    /* align-items: center; */
+}
+.personal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.personal >h2{
+    color: ghostwhite;
+}
+
+img{
+    padding-left: 5px;
+    width: 300px;
+    height:300px;
+    border-radius: 45%;
+    margin:15px;
+}
+.contact{
+    display: flex;
+    flex-flow:column wrap ;
+    padding: 10px;
+    width: 300px;
+    height: 900px;
+    background-color: grey;
+    
+}
+#linkedin{
+    max-width: 70px;
+    max-height: 70px;
+}
+ #github{
+    max-width: 100px;
+    max-height:100px;
+}
+.accounts{
+    display: flex;
+    flex-flow: row,wrap;
+    justify-content: center;
+    align-items: center ;
+}
